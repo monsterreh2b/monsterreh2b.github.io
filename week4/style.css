@@ -6,11 +6,12 @@ body{
 
   background-size: cover;
   color: #000;
-  font-family: 'Baumans', cursive;
+  font-family: 'Crimson Text', serif;
 }
 
 h1{
   font-size: 22px;
+  font-family: 'Baumans', cursive;
 }
 #slogan {
 	font-style: italic;

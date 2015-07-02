@@ -1,0 +1,15 @@
+body{
+  text-align: center;
+  background: url("https://http://www.soy.com/assets/images/Product/p198650z.jpg");
+
+  background-size: cover;
+  color: #000;
+  font-family: 'Baumans', cursive;
+}
+
+h1{
+  font-size: 22px;
+}
+#slogan {
+	font-style: italic;
+}

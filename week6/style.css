@@ -11,18 +11,22 @@ p{
     font-size: 18px;
 }
 #book {
-    display: block;
-    width: 100%;
-    margin: 0 auto;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
-
-#calendar {
+#recipes {
     display: block;
     float: left;
 }
+
+#calendar {
+  display: block;
+  float: left;
+}
 #comment {
-    display: block;
-    float: right;
+  display: block;
+  float: right;
 }
 
 Nav{

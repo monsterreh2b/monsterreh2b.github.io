@@ -11,18 +11,18 @@ p{
     font-size: 18px;
 }
 #book {
-	display: block;
-	width: 100%;
-	margin: 0 auto;
+    display: block;
+    width: 100%;
+    margin: 0 auto;
 }
 
 #calendar {
-	display: block;
-	float: left;
+    display: block;
+    float: left;
 }
 #comment {
-	display: block;
-	float: right;
+    display: block;
+    float: right;
 }
 
 Nav{
@@ -54,4 +54,18 @@ a:hover{
     font-size: 0;
 }
 
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
 

@@ -3,6 +3,13 @@ body{
     background: #FFF188;
     color: #0033CC;
     font-family: 'Playfair Display', serif;
+    position: relative;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  
+
 }
 hr{
   width: 400px;
@@ -10,6 +17,27 @@ hr{
 p{
     font-size: 18px;
 }
+
+nav{
+    background-color: #fff188;
+    font-family: arial, sans-serif;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    width: 170px;
+    float: left;
+    
+}
+
+
 #book {
   display: block;
   width: 100%;
@@ -29,22 +57,13 @@ p{
   float: right;
 }
 
-Nav{
-    background-color: #fff188;
-    font-family: arial, sans-serif;
-    display: inline-block;
+
+#wrapper{
+  width: 800px;
+  margin-left: auto;
+    margin-right: auto;
 }
 
-a{
-    background-color: #ff6600;
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 15px;
-    width:200px;
-    float: left;
-    
-}
 a:hover{
     background-color: #ffcc00;
 }
